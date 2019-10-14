@@ -1,0 +1,12 @@
+.footer{
+    padding: 1.5rem 0;
+    background: $color-primary;
+    color: $color-secondary;
+    &__caption{
+        font-size: 1.5rem;
+
+        a{
+            font-size: 1.5rem;
+        }
+    }
+}

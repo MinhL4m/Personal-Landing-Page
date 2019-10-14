@@ -1,0 +1,67 @@
+.navbar {
+    padding: 0 3rem;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+
+    button{
+        padding: 1rem 1.5rem;
+        outline: none;
+    }
+
+    i{
+        color: white;
+        font-size: 1.8rem
+    }
+
+
+    .navbar-brand {
+        font-size: 3.5rem;
+        color: $color-secondary;
+        font-family: $courgette;
+        letter-spacing: 3px;
+
+        &:hover {
+            color: $color-secondary;
+        }
+    }
+
+    .nav-item:not(:last-child){
+        margin-right: 1.4rem;
+    }
+
+    .nav-item .nav-link {
+        font-size: 2rem;
+        color: $color-secondary;
+        font-family: $lato;
+        letter-spacing: 2px;
+
+        &:hover {
+            color: $color-nav-hover;
+            border-bottom: solid 1px $color-nav-hover;
+        }
+    }
+
+    &-bg--black {
+        background: $color-primary !important;
+    }
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 991.98px){
+    .navbar{
+        ul{
+            text-align: center;
+        }
+        li{
+            margin: 2rem 0;
+        }
+    }
+}

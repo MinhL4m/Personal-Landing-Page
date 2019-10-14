@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Poppins&display=swap');
+
+// ------Header---
+// header h1
+.header__page{
+    font-size: 6.5rem;
+    font-family: $poppins;
+    z-index: 2;
+}
+// header btn
+.btn-style-1{
+    font-size: 2rem;
+    text-decoration: none;
+    color: #000;
+    font-family: $poppins;
+}
+
+.features{
+    &__link{
+        text-decoration: none !important;
+        color: $color-primary;
+        transition: all .8s;
+        &:hover{
+            color: $color-secondary;
+        }
+    }
+    &__icon{
+        font-size: 4.5rem;
+    }
+}
+
+.caption{
+    font-size: 1.8rem;
+    font-family: $openSans;
+    line-height: 3rem;
+}
+
+.header-primary{
+    font-size: 3.5rem;
+    font-family: $poppins;
+}
+
+.header-secondary{
+    font-size: 3rem;
+    font-family: $poppins;
+}
+
+.btn-style-2{
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    font-family: $poppins;
+    &:hover{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.header-footer{
+    font-size: 2rem;
+    font-family: $poppins;
+}
+
+.caption-footer{
+    font-size: 1.5rem;
+    font-family: $openSans;
+    a{
+        font-size: 1.5rem;
+        color: $color-primary;
+        font-family: $openSans;
+        text-decoration: none;
+        
+        &:hover{
+            color: $color-secondary;
+            text-decoration: none;
+        }
+    }
+}

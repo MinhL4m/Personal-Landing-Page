@@ -1,0 +1,11 @@
+.features{
+    clip-path: polygon(44% 3%, 86% 14%, 100% 0, 100% 100%, 0 100%, 0 0, 16% 14%);
+    margin-top: -11rem;
+    background:  $color-white;
+    text-align: center;
+    
+    &__column{
+        text-align: center;
+        margin-bottom: 5 rem;
+    }
+}

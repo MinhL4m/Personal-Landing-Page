@@ -1,0 +1,113 @@
+header {
+    height: 90vh;
+    width: 100%;
+    background-image: $linear-primary;
+    position: relative;
+}
+
+// div store h1 and btn
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+    text-align: center;
+
+}
+
+// h1
+.header__page {
+    animation: letterDropdown 1s;
+
+    &::after{
+        content: 'page';
+        animation: letterChange 12s infinite alternate;
+        
+    }
+}
+
+
+
+
+// svg
+.header-img-1{
+    position: absolute;
+    top: 43%;
+    right: 4%;
+    width: 30vw;
+
+    &__svg{
+        width: 100%;
+    }
+}
+
+.header-img-2{
+    position: absolute;
+    top: 12%;
+    left: 6%;
+    width: 25vw;
+
+    &__svg{
+        width: 100%;
+    }
+}
+
+//media queries
+
+@media only screen and (max-width: 991.98px){
+    .header-img-1{
+        top: 50%
+    }
+}
+
+@media only screen and (max-width: 767.98px){
+    .header-img-2{
+        display: none;
+    }
+
+    .header-img-1{
+        top: none;
+    }
+} 
+
+@media only screen and (max-width: 575.98px){
+    .header-img-1{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+// animation
+@keyframes letterDropdown{
+    0%{
+        transform: translateX(-20%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes letterChange {
+    0% {
+        content: 'page';
+        
+    }
+    
+    50%{
+        content: 'life';
+        
+    }
+    
+    100% {
+        content: "porfolio";
+        
+        
+    }
+}

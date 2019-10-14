@@ -1,0 +1,36 @@
+.mr-top {
+    &--lg {
+        margin-top: 12rem;
+    }
+
+    &--md {
+        margin-top: 8rem;
+    }
+
+    &--sm {
+        margin-top: 4rem;
+    }
+}
+
+.animated {
+    animation-name: fadeInWayPoint;
+    animation-duration: .5s;
+    animation-fill-mode: both;
+}
+
+.animate {
+    opacity: 0;
+    transform: translateY(-50%);
+}
+
+@keyframes fadeInWayPoint {
+    0% {
+        opacity: 0;
+        transform: translateY(-50%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}

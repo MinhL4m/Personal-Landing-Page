@@ -1,0 +1,24 @@
+.quality {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)), url('../img/bg-2.jpg');
+
+    background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
+    color: $color-white;
+
+    .header-primary {
+        font-size: 5rem;
+    }
+
+    
+}
+

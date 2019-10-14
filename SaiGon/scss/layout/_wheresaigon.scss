@@ -1,0 +1,76 @@
+.whysaigon {
+    width: 100%;
+    height: 100%;
+
+    &__img {
+        max-width: 100%;
+    }
+
+
+    &__btn {
+        margin: 5rem 0;
+
+        font-size: 1.8rem;
+        font-family: $lato;
+        font-weight: 700;
+        text-decoration: none;
+        padding: 1.2rem 1.7rem;
+        color: $color-primary;
+        background: $color-secondary;
+        border: solid 3px $color-primary;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    .row {
+        height: 35%;
+    }
+
+    .col-sm-12{
+        margin-bottom: 2rem;
+    }
+
+    &__card {
+        height: 100%;
+        border: solid 3px $color-primary;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    &__icon-box {
+        height: 20%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: solid 1px $color-primary;
+        transition: all .5s;
+    }
+
+    &__icon {
+        font-size: 3rem;
+        color: $color-primary;
+        padding: 3rem 0;
+    }
+
+    &__caption {
+        font-size: 1.4rem;
+        color: $color-primary;
+        margin: 0 2rem;
+    }
+
+    &__header{
+        margin: 1rem 0;
+    }
+
+    &__card:hover > &__icon-box{
+        background: $color-primary;
+        
+        .whysaigon__icon{
+            color:$color-secondary;
+        }
+    } 
+}
+

@@ -1,0 +1,26 @@
+.mr-bt{
+    &--sm{
+        margin-bottom: 4rem;
+    }
+    &--md{
+        margin-bottom: 6rem;
+    }
+    &--lg{
+        margin-bottom: 8rem;
+    }
+} 
+
+.pd-top{
+    &--sm{
+        padding-top: 4rem;
+    }
+    &--md{
+        padding-top: 6rem;
+    }
+    &--lg{
+        padding-top: 8rem;
+    }
+    &--xlg{
+        padding-top: 14rem;
+    }
+}

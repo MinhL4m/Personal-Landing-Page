@@ -1,0 +1,13 @@
+.culture {
+    background-image: url('../../img/culture-1.jpg');
+    background-color: rgba(41, 40, 40, 0.87);
+    background-blend-mode: overlay;
+    background-size: cover;
+    color: $color-secondary;
+    padding-bottom: 8rem;
+
+    .section-caption {
+        margin: 0 3rem;
+    }
+}
+

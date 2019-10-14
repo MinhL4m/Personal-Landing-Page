@@ -1,0 +1,17 @@
+.bg-form{
+    background-image: $linear-secondary;
+}
+
+.form-size{
+    width: 50vw;
+    padding: 2rem 0 4rem 0;
+    border-radius: 1.5rem;
+    box-shadow: .5rem .2rem 1.5rem rgba($color:#000, $alpha: .7);
+    
+}
+
+@media only screen and (max-width: 600px){
+    .form-size{
+        width: 95vw;
+    }
+}

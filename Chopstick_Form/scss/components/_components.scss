@@ -1,0 +1,112 @@
+.avatar {
+    max-width: 15rem;
+    margin: 3rem 4rem 0 4rem;
+
+}
+
+
+
+.form-header {
+    font-size: 2.5rem;
+    margin: 1.5rem 0;
+    font-family: $lato;
+    letter-spacing: 2px;
+    color: $color-secondary;
+}
+
+.input-field {
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.input {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+
+    input {
+        display: block;
+        width: 100%;
+        font-size: 1.6rem;
+        border: solid 1px rgb(218, 214, 214);
+        box-shadow: .5rem .3rem .8rem rgba($color: #838282, $alpha: .7);
+        margin: 1rem 0;
+        padding: .5rem 1rem;
+        border-radius: .7rem;
+        color: #5e5c5c;
+        outline: none;
+        position: relative;
+        transition: all .3s;
+    }
+
+    
+
+    label {
+        font-size: 1.8rem;
+        font-family: $lato;
+        color: #3b3b3b;
+        position: relative;
+        left: 1rem;
+        top: -1.2rem;
+        opacity: 0;
+        transition: all .3s;
+    }
+
+    input:focus{
+        box-shadow: .9rem .7rem 1rem rgba($color: #838282, $alpha: .7);
+    }
+
+    input:focus + label{
+        top: 0;
+        opacity: 1;
+        
+    }
+
+    input:focus::placeholder{
+        opacity: 0;
+    }
+}
+
+.btn-submit{
+    font-size: 2rem;
+    padding: .8rem 2rem;
+    margin-bottom: 3rem;
+    border: none;
+    outline: none;
+    border-radius: .7rem;
+    
+    background-image: $linear-primary;
+    background-size: 300%;
+    background-position-x: left;
+
+    color: #fff;
+    box-shadow: .5rem .3rem .8rem rgba($color: #838282, $alpha: .7);
+    cursor: pointer;
+    transition: all .4s;
+
+    &:hover{
+        box-shadow: .9rem .7rem 1rem rgba($color: #838282, $alpha: .7);
+        background-position-x: right;
+    }
+
+    &:active{
+        box-shadow: .5rem .3rem .5rem rgba($color: #838282, $alpha: .7);
+    }
+}
+
+.caption, .btn-switch{
+    font-size: 1.5rem;
+    font-family: $lato;
+}
+
+.btn-switch{
+    color: $color-secondary;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px){
+    .avatar{
+        max-width: 12rem;
+    }
+}
+

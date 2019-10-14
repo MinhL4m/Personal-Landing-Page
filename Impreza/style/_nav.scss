@@ -1,0 +1,66 @@
+// navbar section
+#nav {
+    background: transparent;
+
+   
+}
+
+// nav brand
+#nav .navbar-brand {
+    font-size: 2.5rem;
+    margin-left: 3rem;
+    letter-spacing: 3px;
+    font-family: $poppins;
+    color: rgb(255, 255, 255);
+}
+
+// Burger
+.navbar-toggler {
+    padding: .8rem 1.25rem !important;
+    font-size: 2rem !important;
+    border: none !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+// nav item
+.nav-item {
+    margin-right: 3rem;
+    
+
+    &>a {
+        font-size: 1.7rem;
+        font-family: $poppins;
+        color: rgb(216, 216, 216);
+        transition: all .3s;
+        
+    }
+}
+
+.show>ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.collapsing>ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__bg {
+    background: #2e2d2de0 !important;
+    border-bottom: solid 1px rgba(121, 121, 121, 0.925);
+    box-shadow: 0rem .2rem .9rem rgba(121, 121, 121, 0.925);
+}
+
+@media only screen and (max-width: 767.98px){
+    .nav-item{
+        margin-bottom: 2rem;
+    }
+}
