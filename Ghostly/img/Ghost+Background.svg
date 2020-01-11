@@ -1,0 +1,30 @@
+<svg width="388" height="419" viewBox="0 0 388 419" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Ghost+Background">
+<ellipse id="background" cx="194" cy="209" rx="194" ry="209" fill="url(#paint0_linear)"/>
+<g id="Ghost">
+<ellipse id="Ellipse 1" cx="191.5" cy="270.5" rx="115.5" ry="147.5" fill="white"/>
+<path id="Rectangle 1" d="M76 285H307V379L290.5 393.5L262.5 410.5L231 416L196 419H170.5L151.5 416L138 410.5L115 403.5L99 393.5L81 379L76 285Z" fill="white"/>
+<g id="eye-left">
+<path id="Ellipse 2" d="M158 220.471C158 229.193 151.06 236.265 142.5 236.265C133.94 236.265 127 229.193 127 220.471C127 211.748 133.94 204.677 142.5 204.677C151.06 204.677 158 211.748 158 220.471Z" fill="black"/>
+<ellipse id="eyeball-left" cx="137" cy="215.056" rx="5" ry="5.41504" fill="white"/>
+</g>
+<g id="eye-right">
+<path id="Ellipse 2_2" d="M257 220.471C257 229.193 250.06 236.265 241.5 236.265C232.94 236.265 226 229.193 226 220.471C226 211.748 232.94 204.677 241.5 204.677C250.06 204.677 257 211.748 257 220.471Z" fill="black"/>
+<ellipse id="eyeball-right" cx="236" cy="215.056" rx="5" ry="5.41504" fill="white"/>
+</g>
+<path id="eye-right-close" d="M222 220.471H262" stroke="black"/>
+<g id="mouth-open">
+<path id="Ellipse 4" d="M232 257.502C232 267.72 213.539 284.772 192 284.772C170.461 284.772 151 267.72 151 257.502C151 247.284 170.461 257.502 192 257.502C213.539 257.502 232 247.284 232 257.502Z" fill="#0D0D0D"/>
+<rect id="Rectangle 2" x="179.5" y="257.876" width="24" height="11.8301" rx="3.5" fill="white" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<path id="mouth-close" d="M147 270.109H236" stroke="black"/>
+<path id="eye-left-close" d="M124 222.276H164" stroke="black"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="194" y1="0" x2="194" y2="418" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFF537"/>
+<stop offset="1" stop-color="#FFFA95" stop-opacity="0.73"/>
+</linearGradient>
+</defs>
+</svg>
